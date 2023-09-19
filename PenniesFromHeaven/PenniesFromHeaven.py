@@ -10,7 +10,8 @@ def calculate_pennies(pennies):
 
     nickels = pennies // 5
     pennies %= 5
-
+    
+#using return drastically shortens the code's length and improves its functionality
     return dollars, quarters, dimes, nickels, pennies
 
 def main():
